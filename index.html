@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chibu Cybernetics | Your Digital Services Partner</title>
+  <meta name="description" content="Chibu Cybernetics - Kenya's trusted online cyber café for digital, government, business, design and technology services." />
+  <meta name="theme-color" content="#0878ed" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar glass" role="banner">
+    <a class="brand" href="#home" aria-label="Chibu Cybernetics Home">
+      <span>CHIBU</span> CYBERNETICS
+    </a>
+    <button class="menu-btn" onclick="toggleMenu()" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav id="nav" role="navigation" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta rainbow-btn" href="https://wa.me/254712912718?text=Hello%20CHIBU%20CYBERNETICS!%20I%20would%20like%20to%20request%20a%20service." target="_blank" rel="noopener noreferrer">Get Started</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="bg-orb orb-1"></div>
+        <div class="bg-orb orb-2"></div>
+        <div class="bg-orb orb-3"></div>
+        <div class="bg-orb orb-4"></div>
+        <div class="bg-orb orb-5"></div>
+        <div class="bg-dots"></div>
+        <div class="bg-particle" style="--tx:120px;--ty:-100px;top:15%;left:10%;animation-delay:0s;"></div>
+        <div class="bg-particle" style="--tx:-150px;--ty:80px;top:30%;right:10%;animation-delay:-2s;width:8px;height:8px;background:#4facfe;"></div>
+        <div class="bg-particle" style="--tx:100px;--ty:120px;bottom:25%;left:15%;animation-delay:-4s;background:#43e97b;"></div>
+        <div class="bg-particle" style="--tx:-80px;--ty:-120px;top:50%;right:5%;animation-delay:-1s;background:#f5576c;"></div>
+        <div class="bg-particle" style="--tx:180px;--ty:-80px;bottom:10%;right:20%;animation-delay:-3s;background:#f093fb;"></div>
+        <div class="liquid-glass" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content glass-card">
+        <div class="hero-badge rainbow-pill">
+          <i class="fas fa-bolt" aria-hidden="true"></i> 
+          <span>FAST • RELIABLE • AFFORDABLE</span>
+        </div>
+        <h1 id="hero-title">
+          Your Digital Services, <br />
+          <span class="rainbow-text">Made Simple.</span>
+        </h1>
+        <p class="hero-subtitle">
+          CHIBU CYBERNETICS is your modern online cyber café for digital, 
+          government, business, design and technology services.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary rainbow-btn" href="https://wa.me/254712912718?text=Hello%20CHIBU%20CYBERNETICS!%20I%20would%20like%20to%20request%20a%20service.%20Please%20assist%20me%20with%20the%20following%3A%0A%0A1.%20Name%3A%20%0A2.%20Phone%3A%20%0A3.%20Service%20needed%3A%20%0A4.%20Details%3A%20" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-paper-plane" aria-hidden="true"></i> 
+            Request a Service
+          </a>
+          <a class="btn btn-secondary glass" href="#services">
+            <i class="fas fa-cogs" aria-hidden="true"></i> 
+            Explore Services
+          </a>
+        </div>
+        <div class="hero-trust">
+          <span class="trust-badge glass-tag">
+            <i class="fas fa-check-circle" aria-hidden="true"></i> 
+            Online requests
+          </span>
+          <span class="trust-badge glass-tag">
+            <i class="fas fa-headset" aria-hidden="true"></i> 
+            Professional support
+          </span>
+          <span class="trust-badge glass-tag">
+            <i class="fas fa-mobile-alt" aria-hidden="true"></i> 
+            Mobile friendly
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats-section" aria-label="Key statistics">
+      <div class="stats-container">
+        <div class="stat-item glass-card">
+          <div class="stat-number" data-count="12">0</div>
+          <span class="stat-label">Digital Services</span>
+          <i class="fas fa-cube stat-icon" aria-hidden="true"></i>
+        </div>
+        <div class="stat-item glass-card">
+          <div class="stat-number" data-count="500">0</div>
+          <span class="stat-label">Happy Clients</span>
+          <i class="fas fa-users stat-icon" aria-hidden="true"></i>
+        </div>
+        <div class="stat-item glass-card">
+          <div class="stat-number" data-count="98">0</div>
+          <span class="stat-label">Success Rate %</span>
+          <i class="fas fa-chart-line stat-icon" aria-hidden="true"></i>
+        </div>
+        <div class="stat-item glass-card">
+          <div class="stat-number" data-count="24">0</div>
+          <span class="stat-label">Hour Support</span>
+          <i class="fas fa-clock stat-icon" aria-hidden="true"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" aria-labelledby="services-title">
+      <div class="section-header">
+        <span class="eyebrow rainbow-text">✦ Our Services</span>
+        <h2 id="services-title">What We <span class="rainbow-text">Offer</span></h2>
+        <p>Choose from our comprehensive range of digital services</p>
+      </div>
+      <div class="service-grid" id="serviceGrid" role="list"></div>
+    </section>
+
+    <!-- ===== HOW IT WORKS (Enhanced) ===== -->
+    <section class="how-section" id="how" aria-labelledby="how-title">
+      <div class="section-header light">
+        <span class="eyebrow rainbow-text">✦ Simple Process</span>
+        <h2 id="how-title">How It <span class="rainbow-text">Works</span></h2>
+        <p>Get your service request started in three simple steps</p>
+      </div>
+
+      <div class="how-container">
+        <!-- Step 1 -->
+        <div class="how-step glass-card">
+          <div class="step-number-wrapper">
+            <div class="step-number">01</div>
+            <div class="step-connector"></div>
+          </div>
+          <div class="step-icon-wrapper">
+            <div class="step-icon-circle">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+          <div class="step-content">
+            <h3>Choose a Service</h3>
+            <p>Browse our service catalogue and select the service that matches your needs.</p>
+            <ul class="step-features">
+              <li><i class="fas fa-check-circle"></i> 12+ services available</li>
+              <li><i class="fas fa-check-circle"></i> Detailed descriptions</li>
+              <li><i class="fas fa-check-circle"></i> Expert guidance</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="how-step glass-card">
+          <div class="step-number-wrapper">
+            <div class="step-number">02</div>
+            <div class="step-connector"></div>
+          </div>
+          <div class="step-icon-wrapper">
+            <div class="step-icon-circle">
+              <i class="fas fa-pen-fancy"></i>
+            </div>
+          </div>
+          <div class="step-content">
+            <h3>Send Your Request</h3>
+            <p>Fill in your details, describe your requirements, and submit the request form.</p>
+            <ul class="step-features">
+              <li><i class="fas fa-check-circle"></i> Simple form</li>
+              <li><i class="fas fa-check-circle"></i> WhatsApp integration</li>
+              <li><i class="fas fa-check-circle"></i> Quick submission</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="how-step glass-card">
+          <div class="step-number-wrapper">
+            <div class="step-number">03</div>
+          </div>
+          <div class="step-icon-wrapper">
+            <div class="step-icon-circle">
+              <i class="fas fa-handshake"></i>
+            </div>
+          </div>
+          <div class="step-content">
+            <h3>We Contact You</h3>
+            <p>We review your request and reach out within 24 hours to discuss the next steps.</p>
+            <ul class="step-features">
+              <li><i class="fas fa-check-circle"></i> 24-hour response</li>
+              <li><i class="fas fa-check-circle"></i> Professional support</li>
+              <li><i class="fas fa-check-circle"></i> Personalized service</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Process Flow Indicator -->
+      <div class="process-flow">
+        <div class="flow-line"></div>
+        <div class="flow-dots">
+          <span class="flow-dot active"></span>
+          <span class="flow-dot"></span>
+          <span class="flow-dot"></span>
+        </div>
+      </div>
+
+      <div class="how-cta">
+        <a href="https://wa.me/254712912718?text=Hello%20CHIBU%20CYBERNETICS!%20I%20would%20like%20to%20request%20a%20service.%20Please%20assist%20me%20with%20the%20following%3A%0A%0A1.%20Name%3A%20%0A2.%20Phone%3A%20%0A3.%20Service%20needed%3A%20%0A4.%20Details%3A%20" target="_blank" rel="noopener noreferrer" class="btn btn-primary rainbow-btn">
+          <i class="fas fa-rocket" aria-hidden="true"></i>
+          Start Your Request Now
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== REQUEST ===== -->
+    <section class="request-section" id="request" aria-labelledby="request-title">
+      <div class="section-header">
+        <span class="eyebrow rainbow-text">✦ Service Desk</span>
+        <h2 id="request-title">Submit a <span class="rainbow-text">Request</span></h2>
+        <p>Fill in the form and we'll get back to you via WhatsApp</p>
+      </div>
+
+      <div class="request-wrapper">
+        <form id="requestForm" class="glass-card" novalidate>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">
+                  <i class="fas fa-user" aria-hidden="true"></i> 
+                  Full Name <span class="required">*</span>
+                </label>
+                <input id="name" type="text" required placeholder="John Doe" autocomplete="name" />
+              </div>
+              <div class="form-field">
+                <label for="phone">
+                  <i class="fas fa-phone" aria-hidden="true"></i> 
+                  Phone Number <span class="required">*</span>
+                </label>
+                <input id="phone" type="tel" required placeholder="0712345678" autocomplete="tel" pattern="^[0-9]{10,12}$" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="email">
+                  <i class="fas fa-envelope" aria-hidden="true"></i> 
+                  Email Address
+                </label>
+                <input id="email" type="email" placeholder="you@example.com" autocomplete="email" />
+              </div>
+              <div class="form-field">
+                <label for="service">
+                  <i class="fas fa-cog" aria-hidden="true"></i> 
+                  Service <span class="required">*</span>
+                </label>
+                <select id="service" required>
+                  <option value="">Select a service</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-field full-width">
+              <label for="details">
+                <i class="fas fa-comment" aria-hidden="true"></i> 
+                Describe Your Needs <span class="required">*</span>
+              </label>
+              <textarea id="details" required placeholder="Tell us what you need help with..." maxlength="500"></textarea>
+              <span class="char-count" id="charCount">0/500</span>
+            </div>
+            <div class="form-field">
+              <label for="contactMethod">
+                <i class="fas fa-comment-dots" aria-hidden="true"></i> 
+                Preferred Contact Method
+              </label>
+              <select id="contactMethod">
+                <option value="WhatsApp">WhatsApp</option>
+                <option value="Phone call">Phone Call</option>
+                <option value="SMS">SMS</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn btn-primary rainbow-btn full-width" type="submit" id="submitBtn">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i> 
+            Send Request via WhatsApp
+          </button>
+          <p class="form-note">
+            <i class="fas fa-lock" aria-hidden="true"></i> 
+            By submitting, you agree that CHIBU CYBERNETICS may contact you about this request.
+          </p>
+        </form>
+
+        <aside class="request-sidebar glass-card rainbow-bg">
+          <div class="sidebar-icon"><i class="fas fa-question-circle" aria-hidden="true"></i></div>
+          <h3>Need Help?</h3>
+          <p>Not sure which service to choose? Talk to us directly and we'll guide you.</p>
+          <div class="sidebar-features">
+            <span><i class="fas fa-check-circle"></i> Free consultation</span>
+            <span><i class="fas fa-check-circle"></i> Expert advice</span>
+            <span><i class="fas fa-check-circle"></i> Quick response</span>
+          </div>
+          <a href="https://wa.me/254712912718" target="_blank" rel="noopener noreferrer" class="whatsapp-btn rainbow-btn">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i> 
+            Chat on WhatsApp
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-content">
+        <span class="eyebrow rainbow-text">✦ About Us</span>
+        <h2 id="about-title">Your Local <span class="rainbow-text">Digital Partner</span></h2>
+        <p class="about-text">We help individuals, students, entrepreneurs and organizations access essential online and digital services without unnecessary hassle.</p>
+        <p class="about-text">From websites and graphic design to KNEC, KRA, SHA, eCitizen and business services, CHIBU CYBERNETICS brings useful digital assistance together in one place.</p>
+        <div class="about-stats">
+          <div class="about-stat">
+            <span class="stat-value">12+</span>
+            <span class="stat-label">Services</span>
+          </div>
+          <div class="about-stat">
+            <span class="stat-value">24/7</span>
+            <span class="stat-label">Support</span>
+          </div>
+          <div class="about-stat">
+            <span class="stat-value">98%</span>
+            <span class="stat-label">Satisfaction</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-features">
+        <div class="feature-card glass-card">
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="feature-content">
+            <h4>Responsible Support</h4>
+            <p>We handle customer requests with care and professionalism.</p>
+          </div>
+        </div>
+        <div class="feature-card glass-card">
+          <div class="feature-icon"><i class="fas fa-comment-dots"></i></div>
+          <div class="feature-content">
+            <h4>Easy Communication</h4>
+            <p>Submit requests online and continue the conversation via WhatsApp.</p>
+          </div>
+        </div>
+        <div class="feature-card glass-card">
+          <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+          <div class="feature-content">
+            <h4>Modern Solutions</h4>
+            <p>Technology services tailored for today's businesses and individuals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" aria-labelledby="contact-title">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="eyebrow rainbow-text">✦ Contact</span>
+          <h2 id="contact-title">Get Your <span class="rainbow-text">Request Started</span></h2>
+          <p>Reach out to us via phone or WhatsApp for immediate assistance.</p>
+          <div class="contact-details">
+            <div class="contact-item glass-card">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <strong>Phone</strong>
+                <span>0712 912 718</span>
+              </div>
+            </div>
+            <div class="contact-item glass-card">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>0712 912 718</span>
+              </div>
+            </div>
+            <div class="contact-item glass-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Location</strong>
+                <span>Kenya</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-card glass-card">
+          <div class="contact-card-content">
+            <i class="fas fa-headset contact-card-icon"></i>
+            <h3>We're Here to Help</h3>
+            <p>Reach out to us and let's get your project started.</p>
+            <div class="contact-card-actions">
+              <a href="tel:+254712912718" class="btn btn-secondary">
+                <i class="fas fa-phone-alt"></i> Call Now
+              </a>
+              <a href="https://wa.me/254712912718" target="_blank" rel="noopener noreferrer" class="btn btn-primary rainbow-btn">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="glass" role="contentinfo">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <b>CHIBU CYBERNETICS</b>
+        <span>Your Trusted Online Cyber Café</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#how">How It Works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-copy">
+        © <span id="year"></span> Chibu Cybernetics. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <a class="float-wa rainbow-btn" href="https://wa.me/254712912718" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
